@@ -39,11 +39,11 @@ const NewsBoard = ({ category }) => {
         <div className="row">
           {articles.map((news, index) => (
             <div key={index} className="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
-              <NewsItem 
-                title={news.title} 
-                description={news.description} 
-                src={news.urlToImage} 
-                url={news.url} 
+              <NewsItem
+                title={news.title}
+                description={news.description}
+                src={news.urlToImage}
+                url={news.url}
               />
             </div>
           ))}

@@ -1,0 +1,10 @@
+/* Navbar hover effect */
+.nav-hover {
+    transition: color 0.3s ease-in-out, transform 0.2s ease;
+  }
+  
+  .nav-hover:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
+  }
+  
